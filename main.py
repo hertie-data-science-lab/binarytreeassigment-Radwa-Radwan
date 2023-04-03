@@ -30,3 +30,12 @@ lbt.add_right(r, 7)
 print(len(lbt))
 print(lbt.height(lbt.root()))
 print()
+
+for position in lbt.preorder():
+    print(position.element())
+
+for position in lbt.postorder():
+    print(position.element())
+
+for position in lbt.inorder():
+    print(position.element())
